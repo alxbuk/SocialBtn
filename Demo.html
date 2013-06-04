@@ -1,10 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href='socialbtn.css' rel='stylesheet'/>
-</head>
-<body>
+	<head>
+		<title>SocialBtn by AlxBuk for Monstra CMS</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href='socialbtn.css' rel='stylesheet'/>
+	</head>
+<body style="font-size: 0.8em;font-family: Arial,Tahoma,Sans-Serif;color: #444; line-height:1.4;cursor:default;">
+
+<div style="width:800px;margin:0 auto;border:1px solid #ccc;border-radius:4px;padding:10px;">
+
+<h2>Social Btn Lite by AlxBuk for <a href="http://monstra.org/">Monstra CMS</a></h2>
+
+
+<h3>Code for insert Monstra CMS</h3>
+<textarea rows="10" cols="10" style="width:795px;height:320px;">
+
+<link href='socialbtn.css' rel='stylesheet'/> <!-- Insert in HEAD -->
+
 <script type="text/javascript" src="socialbtn.js"></script>
 <div id="socialbtn" style="float:right;"> <!-- or if use BootStrap class="pull-right" -->
 <a class="sb_vk" href="#socialbtn" title="Поделиться Вконтакте" onclick="Share.vkontakte('<?php echo Page::url(); ?>','<?php echo Site::name(); ?> - <?php echo Site::title(); ?>','','<?php echo Site::description(); ?>')"></a>
@@ -13,5 +25,40 @@
 <a class="sb_tmb" href="#socialbtn" title="Поделиться в Tumblr" onclick="Share.tumblr('<?php echo Page::url(); ?>','<?php echo Site::name(); ?> - <?php echo Site::title(); ?>')"></a>
 <a class="sb_gpl" href="#socialbtn" title="Поделиться в Google+" onclick="Share.gplus('<?php echo Page::url(); ?>')"></a>
 </div><div style="clear:both;"></div>
+</textarea>
+
+
+
+<h3>Code for clean HTML or another CMS</h3>
+<textarea rows="10" cols="10" style="width:795px;height:320px;">
+
+<link href='socialbtn.css' rel='stylesheet'/> <!-- Insert in HEAD -->
+
+<script type="text/javascript" src="socialbtn.js"></script>
+<div id="socialbtn" style="float:right;"> <!-- or if use BootStrap class="pull-right" -->
+<a class="sb_vk" href="#socialbtn" title="Поделиться Вконтакте" onclick="Share.vkontakte('SITEURL','SITETITLE','','SITEDESCRIPTION')"></a>
+<a class="sb_fb" href="#socialbtn" title="Поделиться в Facebook" onclick="Share.facebook('SITEURL','SITETITLE','SITEDESCRIPTION')"></a>
+<a class="sb_tw" href="#socialbtn" title="Поделиться в Твиттер" onclick="Share.twitter('SITEURL','SITETITLE')"></a>
+<a class="sb_tmb" href="#socialbtn" title="Поделиться в Tumblr" onclick="Share.tumblr('SITEURL','SITETITLE')"></a>
+<a class="sb_gpl" href="#socialbtn" title="Поделиться в Google+" onclick="Share.gplus('SITEURL')"></a>
+</div><div style="clear:both;"></div>
+</textarea>
+
+<div style="float:right"><h2>Try it by <a href="http://alxbuk.ru/">AlxBuk</a></h2></div><div style="clear:both;"></div>
+
+
+<!-- Copy Start -->
+<script type="text/javascript" src="socialbtn.js"></script>
+<div id="socialbtn" style="float:right;"> <!-- or if use BootStrap class="pull-right" -->
+<a class="sb_vk" href="#socialbtn" title="Поделиться Вконтакте" onclick="Share.vkontakte('https://github.com/alxbuk/SocialBtn','SocialBtn by AlxBuk for Monstra CMS','','SocialBtn by AlxBuk for Monstra CMS')"></a>
+<a class="sb_fb" href="#socialbtn" title="Поделиться в Facebook" onclick="Share.facebook('https://github.com/alxbuk/SocialBtn','SocialBtn by AlxBuk for Monstra CMS','SocialBtn by AlxBuk for Monstra CMS')"></a>
+<a class="sb_tw" href="#socialbtn" title="Поделиться в Твиттер" onclick="Share.twitter('https://github.com/alxbuk/SocialBtn','SocialBtn by AlxBuk for Monstra CMS')"></a>
+<a class="sb_tmb" href="#socialbtn" title="Поделиться в Tumblr" onclick="Share.tumblr('https://github.com/alxbuk/SocialBtn','SocialBtn by AlxBuk for Monstra CMS')"></a>
+<a class="sb_gpl" href="#socialbtn" title="Поделиться в Google+" onclick="Share.gplus('https://github.com/alxbuk/SocialBtn')"></a>
+</div><div style="clear:both;"></div>
+<!-- Copy End -->
+
+</div>
+
 </body>
 </html>
